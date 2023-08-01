@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../Imagen/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+/*body:before{
+    content: "";
+    width: 100%;
+    min-width: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, #52c4df, #52c4df);
+
+    opacity: 0.5;
+
+}
+*/
+.cuerpo{
+    width: 320px;
+    height: 420px;
+    background: white;
+    border: 2px solid blue;
+    border-radius: 15px;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: 5px 5px rgb(86, 86, 245);
+}
+
+.cuerpo .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    border: 2px solid blue;
+    box-shadow: 2px 2px rgb(86, 86, 245);
+}
+.cuerpo h2{
+    padding: 0 0 15px;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+} 
+.cuerpo label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.cuerpo input{ 
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.cuerpo input[type="email"],
+.cuerpo input[type="text"],
+.cuerpo input[type="password"]{
+    border: none;
+    border-bottom: 2px solid blue;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+.cuerpo button[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 4px ;
+    margin-left:30% ;
+    
+}
+
+.cuerpo a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+}
+
+.cuerpo a:hover{
+    color: blue;
+}
